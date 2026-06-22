@@ -1,0 +1,21 @@
+.bar_icon{
+ 
+   background-color: rgb(146, 198, 234);
+  border-radius: 5px;
+  padding-bottom: 2px;
+}
+
+
+
+.bar_container_dark{
+   background: linear-gradient(rgb(223, 230, 242) 0%, rgb(113, 99, 116) 50%, rgb(11, 10, 11)   
+ 100%);
+   
+}
+
+.bar_container{
+
+background: linear-gradient(rgb(169, 202, 255) 0%, rgb(240, 200, 249) 50%, rgb(255, 186, 236) 100%);
+
+
+}
