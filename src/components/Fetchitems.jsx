@@ -23,7 +23,7 @@ useEffect(() => {
   dispatch(fetchActions.MarkFetchingStarted());
 
   // This will now pull perfectly from your db.json file!
-  fetch('/db.json', { signal })
+  fetch('/my-e-commerce/db.json', { signal })
     .then(res => res.json())
     .then(data => {
       dispatch(fetchActions.MarkFetchDone());
